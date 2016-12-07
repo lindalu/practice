@@ -1,0 +1,155 @@
+Function Checklist
+
+1. Did you start your function definition with def?
+2. Does your function name have only characters and _?
+3. Did you put an open parenthesis right after the function name?
+4. Did you put your arguments after the parenthesis ( separated by commas?
+5. Did you make each argument unique (no duplicated names)?
+6. Did you put a close parenthesis and a colon ): after the arguments?
+7. Did you indent all lines of code you want in the function four spaces? No more, no less.
+8. Did you "end" your function by going back to writing with no indent ("dedenting")?
+
+When you run ("use" or "call") a function, check these things:
+
+1. Did you call/use/run this function by typing its name?
+2. Did you put the ( character after the name to run it?
+3. Did you put the values you want into the parenthesis separated by commas?
+4. Did you end the function call with a ) character?
+
+
+
+
+
+
+
+Study Drill: Every Word and Symbol
+
+print "text"
+#
+"
+'
+, (separating variables in list inside parentheses)
+, (not doing a new line between two print commands)
++
+-
+*
+/
+=
+%
+<
+>
+<=
+>=
+round(variable)
+%d
+%r
+%s
+True/False
+\n
+\t
+"""
+'''
+raw_input("prompt ")
+variable = raw_input("prompt ")
+from sys
+import argv
+txt = open(filename) [makes "txt" open "filename"]
+print txt.read()  [prints what it finds when it reads filename in txt line]
+txt.close  [closes file opened in txt line]
+target = open(filename, 'w')  [makes "target" open "filename" in write mode]
+target.truncate()   [truncates file contents at line number (byte?) specified;
+    not needed if file opened in w mode and written to]
+target.write(variable that contains text)   [writes content to the opened file]
+target.write("\n")   [can write text including special characters]
+target.close()   [closes file opened in target line]
+from os.path import exists  [loads exists module; not entirely sure where from]
+do_it = open(from_file).read()  [combines opening and reading in one line]
+len(filename)  [returns length in bytes]
+
+out_file = open(to_file, 'w')  [opens destination file named in cmd line arg]
+out_file.write(do_it)  [writes content read from from_file to out_file]
+
+def functionname(argument, argument):
+    lines of what the function does        [defines a function]
+
+(f)  [a variable; when called the function will need an argument there]
+filename.read()   [can use print filename.read() to print file contents]
+filename.seek(0)  [returns reading point to byte specified]
+filename.readline()   [returns line number at current reading point]
+float( ? )   [not sure i understand how to use; has to do with displaying decimals]
+"""Documentation comments"""
+
+
+
+
+Notes from reading random code:
+
+- if uses ==  (always? why?)
+- what's the difference b/w if-else and try-except? looks like if is testing a value and try is testing an action?
+- any diff b/w from lala import lala, and import lala from lala?
+- what does "class" do? i see it preceding a couple defs, which are further indented
+
+
+
+
+Truth Terms
+
+and
+or
+not
+!= (not equal)
+== (equal)
+>= (greater-than-equal)
+<= (less-than-equal)
+True
+False
+
+
+Truth Tables
+
+NOT
+not False
+not True
+
+OR
+True or False
+True or True
+False or True
+False or False
+
+AND
+True and False
+True and True
+False and True
+False and False
+
+NOT OR  (means no option is true)
+not (True or False)
+not (True or True)
+not (False or True)
+not (False or False)
+
+NOT AND  (means all options are false)
+not (True and False)
+not (True and True)
+not (False and True)
+not (False and False)
+
+!=
+1 != 0
+1 != 1
+0 != 1
+0 != 0
+
+==
+1 == 0
+1 == 1
+0 == 1
+0 == 0
+
+
+
+
+
+
+
